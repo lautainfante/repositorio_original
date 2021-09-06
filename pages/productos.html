@@ -25,7 +25,7 @@
   <div class="moBile">
     <header class="box1-header">
         <div class="text-center">
-            <img src="../imagenes/logo200x200.jpg" class="rounded" alt="logo">
+            <img src="../imagenes/Quinto_escalonjp.jpg" class="rounded" alt="logo">
         </div>
         <nav class="navbar navbar-dark bg-dark navbar--border">
           <div class="container-fluid">
@@ -64,10 +64,17 @@
     </header>
     <main>
         <section class="box3-section float-sm-start">
-            <h2 class="h2Pro">Productos disponibles</h2>
-            <hr class="hrPro"/>
+            <h1 class="text-center" style="color: goldenrod; padding-top: 1rem; padding-left: 3rem;">SHOP</h2>
+              <br>
+              <br>
+              <nav id="navbar-example3" style="background-color: black;" class="navbar navbar-light  flex-column align-items-stretch p-3">
+                <a class="navbar-brand" style="color: blanchedalmond;" href="#">Quick menu</a>
+                <nav class="nav nav-pills flex-row">
+                  <a class="nav-link" href="#consulta">1. Consulta sobre Productos </a>
+                </nav>
+              </nav>  
             <div class="flexProducts">
-            <article style="padding: 10rem">
+            <article style="padding: 10rem; padding-top: 1rem; padding-bottom: 4rem;">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                       <div class="card h-100">
@@ -75,7 +82,7 @@
                         <div class="card-body">
                           <h5 class="card-title" style="text-decoration: underline; color: red;">T-Shirt (Logo)</h5>
                           <p class="card-text" style="color: black solid;">Remeras B&W con el logo del Quinto Escalon.</p>
-                          <h5 class="card-title" style="text-decoration: underline; color: red;">Talles</h5>
+                          <h5 class="card-title" style="text-decoration: underline; color: red; padding-top: 1.5rem;">Talles</h5>
                           <ul class="list-group list-group-flush">
                             <li class="list-group-item">7</li>
                             <li class="list-group-item">8</li>
@@ -107,11 +114,11 @@
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src="../imagenes/Quinto_escalonjp.jpg" class="card-img-top" alt="NIKE">
-                    <div class="card-body">
+                    <img src="../imagenes/gorra.jpg" class="card-img-top" alt="NIKE">
+                    <div class="card-body" style="padding-top: 5rem;">
                       <h5 class="card-title" style="text-decoration: underline; color: red;">Gorra (Logo)</h5>
                       <p class="card-text">Las gorras con el logo del Quinto Escalon ya estan disponibles, consultar precios y colores!!.</p>
-                      <h5 class="card-title" style="text-decoration: underline; color: red;">Talles</h5>
+                      <h5 class="card-title" style="text-decoration: underline; color: red; padding-top: 1.5rem;">Talles</h5>
                         <ul class="list-group list-group-flush">
                           <li class="list-group-item">S<S></S></li>
                           <li class="list-group-item">M</li>
@@ -126,10 +133,9 @@
             </article>
         </section>
         <aside>
-            <hr class="hrPro"/>
-            <h2 class="h2Pro">  Consulta sobre Productos </h2>
+            <h2 class="text-center"  style="color: goldenrod; text-decoration: underline;">  Consulta sobre Productos </h2>
             <div style="margin: 10px 300px 10px 100px;">
-                <form>
+                <form id="consulta">
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" style="color: blanchedalmond;" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
