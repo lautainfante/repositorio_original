@@ -647,3 +647,13 @@ formulario
     top: 0;
     left: 0;
 }
+.cartas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+.cartas--margin{
+    margin: 1rem;
+}
